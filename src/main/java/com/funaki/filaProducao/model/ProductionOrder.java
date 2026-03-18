@@ -16,7 +16,7 @@ import java.util.UUID;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Boletim implements Serializable {
+public class ProductionOrder implements Serializable {
     private static final long serialVersionUID = 1L;
 
     @Id
