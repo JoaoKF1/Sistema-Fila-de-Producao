@@ -33,7 +33,8 @@ public class ProductionHistory {
 
     private Integer newPosition;
 
-    private String action;
+    @Enumerated(EnumType.STRING)
+    private QueueAction action;
 
     private LocalDateTime timestamp;
 

@@ -6,7 +6,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.Optional;
 import java.util.UUID;
 
-public interface BoletimRepository extends JpaRepository<ProductionOrder, UUID> {
+public interface ProductionOrderRepository extends JpaRepository<ProductionOrder, UUID> {
 
     Optional<ProductionOrder> findByNumBoletim(String numBoletim);
 
