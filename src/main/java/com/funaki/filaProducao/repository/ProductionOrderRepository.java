@@ -8,6 +8,7 @@ import java.util.UUID;
 
 public interface ProductionOrderRepository extends JpaRepository<ProductionOrder, UUID> {
 
-    Optional<ProductionOrder> findByNumBoletim(String numBoletim);
+    Optional<ProductionOrder> findByNumProductionOrder(String numProductionOrder);
 
+    UUID id(UUID id);
 }
