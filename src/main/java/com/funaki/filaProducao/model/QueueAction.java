@@ -5,5 +5,7 @@ public enum QueueAction {
     REMOVED,
     INTERRUPTED,
     CREATED,
-    FINISHED
+    FINISHED,
+    RUNNING,
+    WAITING
 }

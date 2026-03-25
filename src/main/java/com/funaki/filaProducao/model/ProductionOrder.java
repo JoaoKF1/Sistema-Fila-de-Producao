@@ -24,7 +24,7 @@ public class ProductionOrder implements Serializable {
     private UUID id;
 
     @Column (nullable = false, unique = true)
-    private String numBoletim;
+    private String numProductionOrder;
 
     @ManyToOne
     @JoinColumn (name = "id_User")
